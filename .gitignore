@@ -2,13 +2,15 @@
 
 # dependencies
 client/node_modules
-node_modules
+server/node_modules
 
 # testing
-/coverage
+client/coverage
+server/coverage
 
 # production
-/build
+client/build
+server/build
 
 # misc
 .DS_Store
