@@ -7,6 +7,10 @@ server/node_modules
 # testing
 client/coverage
 server/coverage
+client/mochawesome-report
+server/mochawesome-report
+client/.nyc_output
+server/.nyc_output
 
 # production
 client/build
