@@ -1,10 +1,9 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "outDir": "build",
-    "module": "commonjs",
-    "esModuleInterop": true,
-    "target": "es6",
+    "outDir": "build/dist",
+    "module": "esnext",
+    "target": "es5",
     "lib": ["es6", "dom"],
     "sourceMap": true,
     "allowJs": true,
@@ -18,13 +17,7 @@
     "importHelpers": true,
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
-    "noUnusedLocals": false,
-    "paths": {
-      "*": [
-        "node_modules/*",
-        "typings/*"
-      ]
-    }
+    "noUnusedLocals": true
   },
   "exclude": [
     "node_modules",
@@ -34,8 +27,5 @@
     "webpack",
     "jest",
     "src/setupTests.ts"
-  ],
-  "includes": [
-    "./images.d.ts"
   ]
 }

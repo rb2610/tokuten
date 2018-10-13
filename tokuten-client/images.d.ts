@@ -1,7 +1,4 @@
-declare module "*.svg" {
-  const x: string;
-  export default x;
-}
+declare module '*.svg'
 declare module '*.png'
 declare module '*.jpg'
 declare module '*.jpeg'
