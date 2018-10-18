@@ -11,6 +11,7 @@ client/mochawesome-report
 server/mochawesome-report
 client/.nyc_output
 server/.nyc_output
+client/reports
 
 # production
 client/build
@@ -32,3 +33,4 @@ yarn-error.log*
 .vscode
 
 client-old
+client/google-chrome-stable_current_amd64.deb
